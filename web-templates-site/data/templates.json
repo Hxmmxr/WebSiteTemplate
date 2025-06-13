@@ -1,0 +1,10 @@
+﻿[
+  {
+    "name": "Minimalist Blog",
+    "folder": "minimalist-blog",
+    "image": "templates/minimalist-blog/screenshot.png",
+    "description": "A clean, responsive blog layout with simple styling.",
+    "download": "downloads/minimalist-blog.zip",
+    "preview": "templates/minimalist-blog/index.html"
+  }
+]
