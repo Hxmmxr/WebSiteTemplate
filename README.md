@@ -22,8 +22,6 @@ web-templates-site/
 └── [template-name]/ # Individual template folders with HTML/CSS and screenshots
 
 yaml
-Copy
-Edit
 
 ---
 
@@ -61,11 +59,12 @@ Add index.html, style.css, and a screenshot.png
 
 ZIP the folder and place it in downloads/
 
+---------------------------------------------------------------
+
 Add an entry to data/templates.json like:
 
 json
-Copy
-Edit
+
 {
   "name": "Your Template Name",
   "folder": "your-template-name",
@@ -74,6 +73,9 @@ Edit
   "download": "downloads/your-template-name.zip",
   "preview": "templates/your-template-name/index.html"
 }
+
+----------------------------------------------------------------
+
 🚀 Deploy to GitHub Pages
 Push the repo to GitHub
 
@@ -103,38 +105,3 @@ Seattle-based PC tech and web dev
 
 📄 License
 MIT License — Free to use, remix, and distribute.
-
-yaml
-Copy
-Edit
-
----
-
-## ✅ Bonus Tips:
-
-- Replace `yourusername` and `your-repo-name` in the URLs above
-- Add badges later (GitHub Stars, Forks, Last Commit, etc.) if you want a polished open-source look
-- Add a `.nojekyll` file in root **if using folders like `_data/`**, although `data/` is usually fine
-
----
-
-Let me know if you want the README customized for:
-- A business/brand tone
-- Dark/West Coast aesthetic
-- Local-only deployments (USB drive, offline kiosk, etc.)
-
-Or if you'd like a `.zip` or GitHub repo with everything pre-set, I can prep that too.
-
-
-
-
-
-
-
-
-
-- A business/brand tone
-- Dark/West Coast aesthetic
-- Local-only deployments (USB drive, offline kiosk, etc.)
-
-Or if you'd like a `.zip` or GitHub repo with everything pre-set, I can prep that too.
